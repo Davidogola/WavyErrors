@@ -1,0 +1,16 @@
+#E represents Errors
+#these are basically sample errors i have been encountering while am running django projects
+#any help ill highly appreciate,comment in the comment section.
+
+C:\Users\davido\wavy>python manage.py runserver
+Traceback (most recent call last):
+  File "C:\Users\davido\wavy\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\davido\wavy\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\omond\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\management\__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\omond\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\management\__init__.py", line 386, in execute
+    settings.INSTALLED_APPS
+  File "C:\Users\omond\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\conf\__init__.py", line 92, in __getattr__
+    self._setup(name)
